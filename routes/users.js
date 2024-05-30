@@ -1,23 +1,35 @@
 import express from "express";
 import {
-    createUsers,
     updateUser,
     deleteUser,
     getUser,
     getAllUsers
 } from "../controllers/userController.js";
+import { verifyAdmin, verifyToken, verifyUser } from "../utils/verifyTokens.js";
 const routes = express.Router();
 
-//Create Users.
-routes.post("/register", createUsers);
+
+// routes.get("/checkauth", verifyToken, (req, res, next) => {
+//     res.send("Hello user you are logged in");
+// });
+
+// routes.get("/checkuser/:id", verifyUser, (req, res, next) => {
+//     res.send("Hello user you are logged in and you have sudo functionality");
+// });
+
+// routes.get("/checkadmin/:id", verifyAdmin, (req, res, next) => {
+//     res.send("Hello admin you are logged in and you have sudo functionality");
+// });
+
+
 //update Users.
-routes.put("/:id", updateUser);
+routes.put("/:id", verifyUser, updateUser);
 //delete Users
-routes.delete("/:id", deleteUser);
+routes.delete("/:id", verifyUser, deleteUser);
 //get a User
-routes.get("/:id", getUser);
+routes.get("/:id", verifyUser, getUser);
 //get all users
-routes.get("/", getAllUsers);
+routes.get("/", verifyAdmin, getAllUsers);
 
 
 

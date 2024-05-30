@@ -6,6 +6,7 @@ import hotelRoute from "./routes/hotels.js";
 import userRoute from "./routes/users.js";
 import roomsRoute from "./routes/rooms.js";
 import userRegister from "./routes/auth.js"
+import cookieParser from "cookie-parser";
 
 
 
@@ -24,6 +25,7 @@ const connect_to_db = async() => {
 };
 
 //Midlewares
+app.use(cookieParser());
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);

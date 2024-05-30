@@ -1,22 +1,6 @@
 import Users from "../models/users.js";
 // import createError from "../utils/error.js"
 
-//Create User
-export const createUsers = async(req, res, next) => {
-   try{
-    const newUser = new Users({
-        first_name: req.body.first_name,
-        second_name: req.body.second_name,
-        email_address: req.body.email_address,
-        password: req.body.password
-    })
-
-    await newUser.save();
-    res.status(200).send("User created");
-   }catch (err){
-    next(err);
-   }
-}
 //Update User
 export const updateUser = async(req, res, next) => {
     try{
