@@ -1,0 +1,28 @@
+
+.hotel--about{
+    min-width: 90%;
+    max-width: 90%;
+}
+
+.about--one > h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 50px;
+}
+.about--desc{
+    font-size: 25px;
+    margin: 30px 0;
+    width: 40vw;
+    margin: 20px 40px;
+    line-height: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+.about--div{
+    display: flex;
+}
+.about--div img{
+    width: 550px;
+    margin: -70px 60px;
+}

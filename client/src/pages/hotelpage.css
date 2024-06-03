@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hotel--page{
+    max-width: 100%;
+    min-width: 90%;
+    /* border: 1px solid black; */
+    min-height: 100%;
+}
+.hotel--nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(147, 163, 187);
+}
+.nav--list{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+}
+.nav--list>li{
+    justify-content: space-between;
+    margin: 5px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 2rem;
+}
+.hotel--logo{
+    margin: 10px 0;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: monospace;
+    color: #fff;
+}
+.hotel--theme{
+    margin: 10px 0;
+}
+.hotel--page--image{
+    min-width: 100%;
+    max-width: 100%;
+}
+.hotel--page--image > img{
+    min-width: 100%;
+    max-width: 100%;
+    /* position: absolute; */
+    height: auto;
+    backdrop-filter:calc(20px);
+}
+.hotel--desc{
+    position: absolute;
+    color: #fff;
+    top: 30vh;
+    left: 50px;
+}
+.hotel--desc > h1{
+    font-size: 45px;
+    top: 20vh;
+    margin: 30px 0;
+}
+.hotel--desc > p{
+    font-size: 18px;
+    top: 20vh;
+    font-size: 20px;
+}
+.hotel--book--btn{
+    margin: 50px 0;
+}
+.hotel--book--btn > button{
+    border: none;
+    border-radius: 5rem;
+    margin: 20px 0;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    border-bottom: 5px solid rgb(66, 161, 216);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.hotel--book--btn > button:hover{
+    background-color: rgb(75, 214, 75);
+    border-bottom: 5px solid rgb(243, 243, 243);
+    color: #fff
+}
+.hotel--users{
+    /* border: 1px solid grey; */
+    width: 80px;
+    text-align: center;
+    height: 25px;
+    padding: 5px;
+    margin: 20px 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(88, 142, 243);
+    border-radius: 8px;
+    cursor: pointer;
+}
