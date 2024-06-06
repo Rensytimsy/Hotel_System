@@ -68,3 +68,6 @@ Special thanks for to our peers for providing support where we needed help.
 ## Landing Page screenshot
 ![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/a5b2dba2-1e4f-4187-8b03-ed6b35beed4e)
 
+![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/a8f75006-f44b-40d6-9f43-0f5ea0262cb2)
+
+
