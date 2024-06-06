@@ -65,9 +65,15 @@ This is a Hotel Booking System project, which is a comprehensive software applic
 Special thanks to the AlX mentors for encouraging us during the creation of this project.
 Special thanks for to our peers for providing support where we needed help.
 
-## Landing Page screenshot
-![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/a5b2dba2-1e4f-4187-8b03-ed6b35beed4e)
+## Landing page screenshot
+![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/af92a11c-2b4f-42a0-9c5d-099cd57a57d4)
 
-![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/a8f75006-f44b-40d6-9f43-0f5ea0262cb2)
+![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/f3a4d28d-ee5d-4429-9fb6-75ed700693a0)
+
+![image](https://github.com/Rensytimsy/Hotel_System/assets/138712337/edc1ffab-fd3c-4d90-b5c2-542ae5c65195)
+
+
+
+
 
 
